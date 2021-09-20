@@ -160,6 +160,11 @@
         -ms-border-radius: 15px;
         -o-border-radius: 15px;
         background-color: hsl(263, 55%, 52%);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 335px;
+        height: 430px;
     }
     .box2 {
         border-radius: 15px;
@@ -244,5 +249,14 @@
         font-size: 13px;
         opacity: 70%;
         line-height: 22px;
+    }
+    .inside-box-overlay {
+        position: absolute;
+        padding: 1.5rem;
+    }
+    .overlay-1 {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 30px;
     }
 }
