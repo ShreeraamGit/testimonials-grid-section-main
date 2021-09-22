@@ -191,7 +191,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        order: 3;
+        order: 5;
     }
     .box4 {
         border-radius: 15px;
@@ -204,7 +204,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        order: 5;
+        order: 3;
     }
     .box5 {
         border-radius: 15px;
@@ -212,7 +212,7 @@
         -moz-border-radius: 15px;
         -ms-border-radius: 15px;
         -o-border-radius: 15px;
-        background-color: hsl(217, 19%, 35%);
+        background-color: hsl(219, 29%, 14%);
         padding: 1rem 1.7rem;
         display: flex;
         flex-direction: column;
