@@ -164,7 +164,8 @@
         display: flex;
         flex-direction: column;
         width: 335px;
-        height: 440px;
+        height: 420px;
+        order: 1;
     }
     .box2 {
         border-radius: 15px;
@@ -173,10 +174,11 @@
         -ms-border-radius: 15px;
         -o-border-radius: 15px;
         background-color: hsl(217, 19%, 35%);
-        padding: 1.5rem;
+        padding: 1rem 1.7rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        order: 2;
     }
     .box3 {
         border-radius: 15px;
@@ -185,10 +187,11 @@
         -ms-border-radius: 15px;
         -o-border-radius: 15px;
         background-color: hsl(0, 0%, 100%);
-        padding: 1.5rem;
+        padding: 1rem 1.7rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        order: 3;
     }
     .box4 {
         border-radius: 15px;
@@ -197,10 +200,11 @@
         -ms-border-radius: 15px;
         -o-border-radius: 15px;
         background-color: hsl(0, 0%, 100%);
-        padding: 1.5rem;
+        padding: 1rem 1.7rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        order: 5;
     }
     .box5 {
         border-radius: 15px;
@@ -209,10 +213,11 @@
         -ms-border-radius: 15px;
         -o-border-radius: 15px;
         background-color: hsl(217, 19%, 35%);
-        padding: 1.5rem;
+        padding: 1rem 1.7rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        order: 4;
     }
     .intro-box {
         display: flex;
@@ -252,7 +257,7 @@
     }
     .inside-box-overlay {
         position: absolute;
-        padding: 1.5rem;
+        padding: 1rem 1.7rem;
     }
     .overlay-1 {
         display: flex;
